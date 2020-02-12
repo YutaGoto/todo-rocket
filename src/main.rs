@@ -9,7 +9,7 @@
 #[macro_use] extern crate rocket_contrib;
 
 mod todo;
-// #[cfg(test)] mod tests;
+#[cfg(test)] mod main_tests;
 
 use rocket::Rocket;
 use rocket::fairing::AdHoc;
