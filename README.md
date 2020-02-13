@@ -25,3 +25,9 @@ diesel migration redo --database-url ./db/db.sqlite
 ```sh
 cargo run
 ```
+
+## テスト
+
+```sh
+cargo test
+```
